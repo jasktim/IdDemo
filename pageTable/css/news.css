@@ -1,0 +1,88 @@
+
+body {
+    background-color: #cddec2;
+    margin: 0 auto;
+}
+
+
+.head {
+    height: 35px;
+    background-color: black;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+
+.nav {
+    text-align: left;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.nav a {
+    color: black;
+}
+
+.left, .center, .right {
+    float: left;
+    text-align: center;
+
+}
+
+
+.left {
+    width: 20%;
+}
+
+.left img {
+    width: 38px;
+    height: 38px;
+}
+.left span{
+    vertical-align: 50%;
+}
+.left a {
+    color: black;
+    display: block;
+    vertical-align: 50%;
+
+}
+
+.center {
+    text-align: left;
+    width: 60%;
+}
+
+.right {
+    width: 20%;
+
+}
+
+.foot {
+    text-align: center;
+    background-color: blue;
+}
+
+
+.aba {
+    clear: both;
+}
+
+.ab {
+    border: none;
+    /*margin: 0 auto;*/
+    /*padding: ;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
